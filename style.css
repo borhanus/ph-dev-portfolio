@@ -13,9 +13,11 @@ h1 span{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .left-half{
     width: 50%;
+    
     padding-left: 2%;
 }
 .left-half img{
@@ -33,4 +35,9 @@ section{
 .top-area{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
